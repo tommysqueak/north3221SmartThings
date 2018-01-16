@@ -62,14 +62,14 @@ def getUserPref(pref){
     prefsMap.colSelectInactive = "#ffffff"  //White
     //DECORATION
     prefsMap.decPush = "ring"
-    prefsMap.decStop = "ring"
+    prefsMap.decStop = "flat"
     prefsMap.decShutdown = "flat"
     prefsMap.decUp = "flat"
     prefsMap.decDown = "flat"
     prefsMap.decLeft = "flat"
     prefsMap.decRight = "flat"
     prefsMap.decBack = "flat"
-    prefsMap.decInfo = "ring"
+    prefsMap.decInfo = "flat"
     prefsMap.decSkipF = "flat"
     prefsMap.decSkipB = "flat"
     prefsMap.decNext = "flat"
