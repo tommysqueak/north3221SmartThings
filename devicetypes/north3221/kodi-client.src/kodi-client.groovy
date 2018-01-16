@@ -56,7 +56,7 @@ def getDefaultTheme(){
 def getUserPref(pref){
     def prefsMap = [:]
     //Main Icon
-    prefsMap.iconMain = "https://raw.githubusercontent.com/north3221/north3221SmartThings/master/resources/main-icon.png"
+    prefsMap.iconMain = "st.Electronics.electronics18"
     //Select Colour
     prefsMap.colSelectActive = "#22a3ec"    //Blue
     prefsMap.colSelectInactive = "#ffffff"  //White
@@ -159,7 +159,7 @@ metadata {
             state "default", label:'', action:"music Player.stop", icon:"${getUserTheme('default','iconStop')}", defaultState: true
             state "glyphs", label:'', action:"music Player.stop", icon:"${getUserTheme('glyphs','iconStop')}"
             state "mayssam", label:'', action:"music Player.stop", icon:"${getUserTheme('mayssam','iconStop')}"
-            
+
         }
 
         standardTile("shutdown", "state.theme", width: 1, height: 1, decoration: "${getUserPref('decShutdown')}") {
